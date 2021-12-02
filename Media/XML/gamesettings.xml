@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Familiar Tower Defense" />
+  <renderer width="1200" height="676"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="BlueTile" file="BlueTile" ext ="png" frames="5"/>
+    <sprite name="BrownTile" file="BrownTile" ext ="png" frames="5"/>
+    <sprite name="GrayTile" file="GrayTile" ext ="png" frames="5"/>
+    <sprite name="RedTile" file="RedTile" ext ="png" frames="5"/>
+	<sprite name="WaveProgress" file="WaveProgress" ext ="png" frames="2"/>
+	<sprite name="Auto" file="Auto.png"/>
+	<sprite name="NoAuto" file="NoAuto.png"/>
+	<sprite name="Checked" file="Checked.png"/>
+	<sprite name="Unchecked" file="Unchecked.png"/>
+	<sprite name="Health" file="Health.png"/>
+	<sprite name="Mana" file="Mana.png"/>
+	<sprite name="WaveNumber" file="WaveNumber.png"/>
+	<sprite name="Tselect" file="Tselect.png"/>
+	<sprite name="Tunselect" file="Tunselect.png"/>
+	<sprite name="TowerNumber" file="TowerNumber.png"/>
+	<sprite name="MenuUButton" file="MenuUButton.png"/>
+	<sprite name="MenuCursor" file="MenuCursor.png"/>
+	<sprite name="TowerCursor" file="TowerCursor.png"/>
+	<sprite name="TowerPrice" file="TowerPrice.png"/>
+	<sprite name="Background" file="Background.png"/>
+	<sprite name="Background2" file="Background paper.png"/>
+	<sprite name="MapBorder" file="MapBorder.png"/>
+	<sprite name="GameOver" file="GameOver.png"/>
+    <sprite name="player" file="player.png"/>
+	<sprite name="EnemyS" file="EnemyS" ext ="png" frames="24"/>
+	<sprite name="Student" file="Student" ext ="png" frames="24"/>
+    <sprite name="Tower" file="Tower" ext ="png" frames="17"/>
+	<sprite name="ParberryTower" file="ParberryTower" ext ="png" frames="16"/>
+	<sprite name="ParberryTowerFlipped" file="ParberryTowerFlipped" ext ="png" frames="16"/>
+	<sprite name="bullet" file="bullet.png"/>
+    <sprite name="bullet2" file="bullet2.png"/>
+	<sprite name="bullet3" file="bullet3.png"/>
+	<sprite name="bullet4" file="bullet4.png"/>
+	<sprite name="bullet5" file="bullet5.png"/>
+	<sprite name="bullet6" file="bullet6.png"/>
+	<sprite name="bullet7" file="bullet7.png"/>
+	<sprite name="bullet8" file="bullet8.png"/>
+	<sprite name="bullet9" file="bullet9.png"/>
+	<sprite name="bullet10" file="bullet10.png"/>
+	<sprite name="bullet11" file="bullet11.png"/>
+	<sprite name="bullet12" file="bullet12.png"/>
+	<sprite name="bullet13" file="bullet13.png"/>
+	<sprite name="bullet14" file="bullet14.png"/>
+	<sprite name="bullet15" file="bullet15.png"/>
+	<sprite name="bullet16" file="bullet16.png"/>
+	<sprite name="bullet17" file="bullet17.png"/>
+    <sprite name="smoke" file="graysmoke.png"/>
+    <sprite name="spark" file="spark.png"/>
+	<sprite name="Title" file="Title.png"/>
+	<sprite name="Help" file="Help.png"/>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds"> 
+	<sound name="MenuMusic" file="MenuMusic.wav" instances="1"/>
+	<sound name="BossWave" file="BossWave.wav" instances="1"/>
+	<sound name="Click" file="Click.wav" instances="1"/>
+    <sound name="gun" file="gun.wav" instances="100"/>
+    <sound name="boom" file="boom.wav" instances="4"/>
+	<sound name="towerPlaced" file="towerPlaced.wav" instances="10"/>
+	<sound name="lifeLost" file="lifeLost.wav" instances="10"/>
+	<sound name="manaDrop" file="manaDrop.wav" instances="5"/>
+  </sounds>
+</settings>
